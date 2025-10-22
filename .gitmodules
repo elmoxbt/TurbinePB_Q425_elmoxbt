@@ -1,0 +1,9 @@
+[submodule "RNG Game/hello-cargo"]
+	path = RNG Game/hello-cargo
+	url = https://github.com/elmoxbt/hello-cargo.git
+[submodule "RNG Game/Rust-Guessing-Game"]
+	path = RNG Game/Rust-Guessing-Game
+	url = https://github.com/elmoxbt/Rust-Guessing-Game.git
+[submodule "rustlings"]
+	path = rustlings
+	url = https://github.com/elmoxbt/rustlings.git
