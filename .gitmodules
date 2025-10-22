@@ -7,3 +7,6 @@
 [submodule "rustlings"]
 	path = rustlings
 	url = https://github.com/elmoxbt/rustlings.git
+[submodule "RNG Game/counter"]
+	path = RNG Game/counter
+	url = https://github.com/elmoxbt/counter.git
