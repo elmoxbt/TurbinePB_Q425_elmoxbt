@@ -10,3 +10,6 @@
 [submodule "RNG Game/counter"]
 	path = RNG Game/counter
 	url = https://github.com/elmoxbt/counter.git
+[submodule "hello-anchor"]
+	path = hello-anchor
+	url = https://github.com/elmoxbt/hello-anchor.git
