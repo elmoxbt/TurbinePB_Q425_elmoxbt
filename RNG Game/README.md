@@ -1,41 +1,56 @@
-# RNG Game
+ RNG Game
 
-## Overview
-A lightweight **Rust** console game where you guess a secret number between 1 and 100.  
-The program gives “too high” / “too low” hints, counts your attempts, and lets you play again.
+This directory contains early Rust learning projects focused on basic game logic, user input, and Rust fundamentals.
 
-## Features
-- Secure random generation with the `rand` crate (`ThreadRng`).
-- Robust input parsing with detailed error messages.
-- Clear hint system.
-- Replay loop.
-- Minimal, idiomatic Rust code.
+## Projects
+
+### 1) hello-cargo
+Minimal "Hello, World!" app demonstrating Cargo basics.
+- Create/build/run with Cargo
+- Project layout and `Cargo.toml`
+
+Run:
+```bash
+cd "RNG Game"/hello-cargo
+cargo run
+```
+
+### 2) Rust-Guessing-Game
+Console-based number guessing game (1–100) using the `rand` crate.
+- Random number generation
+- Input parsing and error handling
+- Hints: "too high" / "too low"
+- Replay loop
+
+Run:
+```bash
+cd "RNG Game"/Rust-Guessing-Game
+cargo run --release
+```
+
+### 3) counter
+Simple counting game showcasing loops and conditionals.
+
+Run:
+```bash
+cd "RNG Game"/counter
+cargo run
+```
 
 ## Requirements
 - Rust 1.56+ (`rustc`, `cargo`)
 
-## Quick Start
-```bash
-git clone https://github.com/elmoxbt/TurbinePB_Q425_elmoxbt.git
-cd TurbinePB_Q425_elmoxbt/RNG\ Game
-cargo run --release
-
-# Project Structure
-
+## Structure
+```
 RNG Game/
-├── Cargo.toml      # Dependencies (rand)
-├── src/
-│   └── main.rs     # Game logic: RNG, input loop, replay
-└── README.md
+├── hello-cargo/
+├── Rust-Guessing-Game/
+└── counter/
+```
 
-# Build and Run Manually
-
-cargo build --release
-./target/release/rng_game   # (or rng_game.exe on Windows)
-
-# Contributing
+## Contributing
 Fork → improve → open a PR.
-Ideas: difficulty tiers, guess history, GUI with crossterm.
+Ideas: difficulty tiers, guess history, GUI with `crossterm`.
 
-#License
+## License
 MIT
