@@ -13,3 +13,9 @@
 [submodule "hello-anchor"]
 	path = hello-anchor
 	url = https://github.com/elmoxbt/hello-anchor.git
+[submodule "multi-threaded-web-server"]
+	path = multi-threaded-web-server
+	url = https://github.com/elmoxbt/multi-threaded-web-server.git
+[submodule "minigrep"]
+	path = minigrep
+	url = https://github.com/elmoxbt/minigrep.git
