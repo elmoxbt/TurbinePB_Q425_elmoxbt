@@ -19,3 +19,6 @@
 [submodule "minigrep"]
 	path = minigrep
 	url = https://github.com/elmoxbt/minigrep.git
+[submodule "piggy-clicker"]
+	path = piggy-clicker
+	url = https://github.com/elmoxbt/piggy-clicker.git
