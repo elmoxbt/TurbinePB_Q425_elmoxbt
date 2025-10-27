@@ -1,4 +1,4 @@
-# RNG Game
+ RNG Game
 
 This directory contains early Rust learning projects focused on basic game logic, user input, and Rust fundamentals.
 
